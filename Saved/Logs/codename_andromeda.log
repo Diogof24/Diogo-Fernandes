@@ -757,3 +757,39 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.17-17.00.13:165][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
 [2020.03.17-17.00.13:166][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.03.17-17.00.13:182][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.17-17.02.08:195][836]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.17-17.02.08:224][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.03.17-17.02.08:330][836]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/FirstPersonExampleMap666690E2436484C4240A37A2CF517D8C.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.03.17-17.02.08:992][836]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/FirstPersonExampleMap_BuiltDataF1FDB0E04DC931B38A9C9E9989D3A584.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.03.17-17.02.09:002][836]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.17-17.02.09:002][836]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.03.17-17.02.09:002][836]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2020.03.17-17.02.09:384][879]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonBP/Maps/level_empty.level_empty
+[2020.03.17-17.02.09:405][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.03.17-17.02.10:471][879]LogSlate: Window 'Save Content' being destroyed
+[2020.03.17-17.02.10:481][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/level_empty" FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-17.02.10:503][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.03.17-17.02.10:508][879]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/level_emptyD5B5546843CD6D6C1E124FAF4422699F.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap'
+[2020.03.17-17.02.10:509][879]LogFileHelpers: Saving map 'level_empty' took 0.028
+[2020.03.17-17.02.10:510][879]Cmd: MAP LOAD FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.17-17.02.10:510][879]LightingResults: New page: Lighting Build
+[2020.03.17-17.02.10:510][879]LoadErrors: New page: Loading map: level_empty.umap
+[2020.03.17-17.02.10:513][879]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.17-17.02.10:513][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.17-17.02.10:513][879]MapCheck: New page: Map Check
+[2020.03.17-17.02.10:513][879]LightingResults: New page: Lighting Build
+[2020.03.17-17.02.10:547][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.03.17-17.02.10:552][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.17-17.02.10:552][879]LogAIModule: Creating AISystem for world level_empty
+[2020.03.17-17.02.10:573][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.03.17-17.02.10:587][879]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.17-17.02.10:587][879]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,063ms to complete.
+[2020.03.17-17.02.10:587][879]LogFileHelpers: Loading map 'level_empty' took 0.078
+[2020.03.17-17.02.10:607][879]AssetCheck: New page: Asset Save: level_empty
+[2020.03.17-17.02.10:607][879]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/level_empty.level_empty
+[2020.03.17-17.02.11:112][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/level_empty" FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.17-17.02.11:134][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2020.03.17-17.02.11:141][936]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/level_emptyE0D98B774DA993830729E9908E3F7ED4.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap'
+[2020.03.17-17.02.11:159][936]LogFileHelpers: Saving map 'level_empty' took 0.047
+[2020.03.17-17.02.11:167][936]AssetCheck: New page: Asset Save: level_empty
+[2020.03.17-17.02.11:167][936]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/level_empty.level_empty
