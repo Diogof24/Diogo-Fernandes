@@ -1,4 +1,4 @@
-﻿Log file open, 03/17/20 17:00:08
+﻿Log file open, 03/18/20 16:44:22
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: codename_andromeda
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.074145
+LogStats: Stats thread started at 0.044321
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,633 +163,632 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.03.17-17.00.08:525][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.03.17-17.00.08:525][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:526][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:527][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.17-17.00.08:527][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.17-17.00.08:528][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.17-17.00.08:528][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.17-17.00.08:528][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.03.17-17.00.08:530][  0]LogHAL: Display: Platform has ~ 16 GB [17114521600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.03.17-17.00.08:530][  0]LogInit: Going up to parent DeviceProfile []
-[2020.03.17-17.00.08:530][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.03.17-17.00.08:530][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.03.17-17.00.08:531][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
-[2020.03.17-17.00.08:531][  0]LogInit: Computer: DESKTOP-T052CCS
-[2020.03.17-17.00.08:531][  0]LogInit: User: NunoPais
-[2020.03.17-17.00.08:531][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.03.17-17.00.08:531][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.03.17-17.00.08:531][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.03.17-17.00.08:531][  0]LogMemory: Platform Memory Stats for Windows
-[2020.03.17-17.00.08:531][  0]LogMemory: Process Physical Memory: 104.40 MB used, 104.41 MB peak
-[2020.03.17-17.00.08:531][  0]LogMemory: Process Virtual Memory: 99.96 MB used, 99.96 MB peak
-[2020.03.17-17.00.08:531][  0]LogMemory: Physical Memory: 7822.64 MB used,  8499.04 MB free, 16321.68 MB total
-[2020.03.17-17.00.08:531][  0]LogMemory: Virtual Memory: 5131.55 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2020.03.17-17.00.08:533][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.03.17-17.00.08:543][  0]LogInit: Using OS detected language (pt-PT).
-[2020.03.17-17.00.08:543][  0]LogInit: Using OS detected locale (pt-PT).
-[2020.03.17-17.00.08:543][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
-[2020.03.17-17.00.08:674][  0]LogInit: Setting process to per monitor DPI aware
-[2020.03.17-17.00.08:696][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.03.17-17.00.08:696][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.03.17-17.00.08:825][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.03.17-17.00.08:825][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.03.17-17.00.08:825][  0]LogD3D11RHI: D3D11 adapters:
-[2020.03.17-17.00.08:869][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2020.03.17-17.00.08:869][  0]LogD3D11RHI:       8031/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.03.17-17.00.08:871][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.03.17-17.00.08:871][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.03.17-17.00.08:871][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.03.17-17.00.08:875][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.03.17-17.00.08:875][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
-[2020.03.17-17.00.08:875][  0]LogWindows: EnumDisplayDevices:
-[2020.03.17-17.00.08:875][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2020.03.17-17.00.08:876][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2020.03.17-17.00.08:876][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2020.03.17-17.00.08:876][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2020.03.17-17.00.08:876][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.03.17-17.00.08:876][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2020.03.17-17.00.08:876][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
-[2020.03.17-17.00.08:876][  0]LogD3D11RHI:      Driver Date: 3-4-2020
-[2020.03.17-17.00.08:876][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2020.03.17-17.00.08:906][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.03.17-17.00.08:907][  0]LogD3D11RHI: Async texture creation enabled
-[2020.03.17-17.00.08:923][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.03.17-17.00.09:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.03.17-17.00.09:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.03.17-17.00.09:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.03.17-17.00.09:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.03.17-17.00.09:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.03.17-17.00.09:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.03.17-17.00.09:211][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.03.17-17.00.09:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.03.17-17.00.09:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.03.17-17.00.09:227][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.03.17-17.00.09:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.03.17-17.00.09:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.03.17-17.00.09:254][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.03.17-17.00.09:254][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.03.17-17.00.09:259][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.03.17-17.00.09:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.03.17-17.00.09:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.03.17-17.00.09:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.03.17-17.00.09:275][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.03.17-17.00.09:277][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.03.17-17.00.09:289][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Unreal Engine/codenameandromeda/Intermediate/Shaders/WorkingDirectory/13960/).
-[2020.03.17-17.00.09:289][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nuno Pais/AppData/Local/Temp/UnrealShaderWorkingDir/97C411EC4D82FA84E537959C24352504/'.
-[2020.03.17-17.00.09:290][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.03.17-17.00.09:290][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.03.17-17.00.09:290][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.03.17-17.00.09:841][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Engine/codenameandromeda/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Engine/codenameandromeda/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.17-17.00.09:884][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.03.17-17.00.09:892][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.03.17-17.00.09:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.03.17-17.00.09:892][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.03.17-17.00.09:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nuno Pais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.03.17-17.00.09:893][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.03.17-17.00.09:893][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.03.17-17.00.09:913][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.03.17-17.00.09:915][  0]LogSlate: Using FreeType 2.10.0
-[2020.03.17-17.00.09:915][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.03.17-17.00.09:950][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
-[2020.03.17-17.00.10:156][  0]LogInit: Selected Device Profile: [Windows]
-[2020.03.17-17.00.10:269][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.03.17-17.00.10:269][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.03.17-17.00.10:269][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.03.17-17.00.10:269][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.03.17-17.00.10:269][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.03.17-17.00.10:277][  0]LogNetVersion: codename_andromeda 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2863241827)
-[2020.03.17-17.00.10:987][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.028338 seconds
-[2020.03.17-17.00.10:993][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.03.17-17.00.10:993][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.03.17-17.00.10:993][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.03.17-17.00.11:275][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.03.17-17.00.11:277][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.03.17-17.00.11:313][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.11:313][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.11:314][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.11:314][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.11:314][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.11:319][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.17-17.00.11:319][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.17-17.00.11:368][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.03.17-17.00.11:375][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.17-17.00.11:375][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.03.17-17.00.11:436][  0]LogOcInput: OculusInput pre-init called
-[2020.03.17-17.00.11:440][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.03.17-17.00.11:440][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.03.17-17.00.11:488][  0]LogEngine: Initializing Engine...
-[2020.03.17-17.00.11:489][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-AA5C56D1
-[2020.03.17-17.00.11:490][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.03.17-17.00.11:743][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.03.17-17.00.11:748][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.03.17-17.00.11:760][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.03.17-17.00.11:760][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.03.17-17.00.11:761][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.03.17-17.00.11:761][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Name: Index HMD (2- NVIDIA High Definition Audio)
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: Channel Order:
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.03.17-17.00.11:789][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.03.17-17.00.11:800][  0]LogAudioMixer: Display: Using Audio Device Index HMD (2- NVIDIA High Definition Audio)
-[2020.03.17-17.00.11:804][  0]LogInit: FAudioDevice initialized.
-[2020.03.17-17.00.11:804][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.03.17-17.00.11:849][  0]LogDerivedDataCache: Saved boot cache 0.04s 78MB C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.03.17-17.00.11:852][  0]LogInit: Texture streaming: Enabled
-[2020.03.17-17.00.11:858][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.03.17-17.00.11:858][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.03.17-17.00.11:859][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.03.17-17.00.11:889][  0]LogInit: Transaction tracking system initialized
-[2020.03.17-17.00.11:894][  0]BlueprintLog: New page: Editor Load
-[2020.03.17-17.00.11:913][  0]LocalizationService: Localization service is disabled
-[2020.03.17-17.00.11:943][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.17-17.00.11:944][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.03.17-17.00.12:102][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/' took 0.00s
-[2020.03.17-17.00.12:102][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.03.17-17.00.12:102][  0]LogCook: Display: Mobile HDR setting 1
-[2020.03.17-17.00.12:534][  0]SourceControl: Source control is disabled
-[2020.03.17-17.00.12:534][  0]Cmd: MAP LOAD FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.17-17.00.12:534][  0]LightingResults: New page: Lighting Build
-[2020.03.17-17.00.12:535][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.03.17-17.00.12:535][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.17-17.00.12:535][  0]MapCheck: New page: Map Check
-[2020.03.17-17.00.12:535][  0]LightingResults: New page: Lighting Build
-[2020.03.17-17.00.12:555][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
-[2020.03.17-17.00.12:763][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.03.17-17.00.12:770][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.17-17.00.12:794][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
-[2020.03.17-17.00.12:794][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.17-17.00.12:794][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,08ms to complete.
-[2020.03.17-17.00.12:794][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.260
-[2020.03.17-17.00.12:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.17-17.00.12:892][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.17-17.00.12:898][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.17-17.00.12:904][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.03.17-17.00.12:906][  0]LogCollectionManager: Loaded 0 collections in 0.001022 seconds
-[2020.03.17-17.00.12:915][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Saved/Collections/' took 0.00s
-[2020.03.17-17.00.12:915][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/Developers/NunoPais/Collections/' took 0.00s
-[2020.03.17-17.00.12:915][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/Collections/' took 0.00s
-[2020.03.17-17.00.12:915][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3015 classes and 717 folders.
-[2020.03.17-17.00.12:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.17-17.00.12:942][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.17-17.00.12:945][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.03.17-17.00.12:964][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.03.17-17.00.12:965][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.03.17-17.00.12:968][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.03.17-17.00.13:018][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2020.03.17-17.00.13:102][  0]LogSlate: Window 'Tutorials' being destroyed
-[2020.03.17-17.00.13:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.03.17-17.00.13:107][  0]LogLoad: (Engine Initialization) Total time: 5.29 seconds
-[2020.03.17-17.00.13:108][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.03.17-17.00.13:117][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
-[2020.03.17-17.00.13:117][  0]LogSteamVRInputDevice: Display: Action Manifest Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
-[2020.03.17-17.00.13:117][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
-[2020.03.17-17.00.13:119][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
-[2020.03.17-17.00.13:124][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest D:/Unreal Engine/codenameandromeda/Config/steamvr_ue_editor_app.json : VRApplicationError_None
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [13960][application.generated.ue.first-person-bp-game-template-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
-[2020.03.17-17.00.13:125][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:126][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:127][  0]LogSteamVRInputDevice: Display: Action Manifest Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
-[2020.03.17-17.00.13:127][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
-[2020.03.17-17.00.13:129][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
-[2020.03.17-17.00.13:131][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest D:/Unreal Engine/codenameandromeda/Config/steamvr_ue_editor_app.json : VRApplicationError_None
-[2020.03.17-17.00.13:131][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [13960][application.generated.ue.first-person-bp-game-template-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
-[2020.03.17-17.00.13:131][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
-[2020.03.17-17.00.13:132][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:133][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
-[2020.03.17-17.00.13:134][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
-[2020.03.17-17.00.13:161][  0]LogAssetRegistry: Asset discovery search completed in 3.2123 seconds
-[2020.03.17-17.00.13:165][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
-[2020.03.17-17.00.13:166][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.03.17-17.00.13:182][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.17-17.02.08:195][836]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.03.17-17.02.08:224][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
-[2020.03.17-17.02.08:330][836]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/FirstPersonExampleMap666690E2436484C4240A37A2CF517D8C.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2020.03.17-17.02.08:992][836]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/FirstPersonExampleMap_BuiltDataF1FDB0E04DC931B38A9C9E9989D3A584.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2020.03.17-17.02.09:002][836]AssetCheck: New page: Asset Save: multiple assets
-[2020.03.17-17.02.09:002][836]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
-[2020.03.17-17.02.09:002][836]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
-[2020.03.17-17.02.09:384][879]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPersonBP/Maps/level_empty.level_empty
-[2020.03.17-17.02.09:405][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
-[2020.03.17-17.02.10:471][879]LogSlate: Window 'Save Content' being destroyed
-[2020.03.17-17.02.10:481][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/level_empty" FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.03.17-17.02.10:503][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
-[2020.03.17-17.02.10:508][879]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/level_emptyD5B5546843CD6D6C1E124FAF4422699F.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap'
-[2020.03.17-17.02.10:509][879]LogFileHelpers: Saving map 'level_empty' took 0.028
-[2020.03.17-17.02.10:510][879]Cmd: MAP LOAD FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.03.17-17.02.10:510][879]LightingResults: New page: Lighting Build
-[2020.03.17-17.02.10:510][879]LoadErrors: New page: Loading map: level_empty.umap
-[2020.03.17-17.02.10:513][879]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
-[2020.03.17-17.02.10:513][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.03.17-17.02.10:513][879]MapCheck: New page: Map Check
-[2020.03.17-17.02.10:513][879]LightingResults: New page: Lighting Build
-[2020.03.17-17.02.10:547][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
-[2020.03.17-17.02.10:552][879]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.03.17-17.02.10:552][879]LogAIModule: Creating AISystem for world level_empty
-[2020.03.17-17.02.10:573][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
-[2020.03.17-17.02.10:587][879]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.03.17-17.02.10:587][879]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,063ms to complete.
-[2020.03.17-17.02.10:587][879]LogFileHelpers: Loading map 'level_empty' took 0.078
-[2020.03.17-17.02.10:607][879]AssetCheck: New page: Asset Save: level_empty
-[2020.03.17-17.02.10:607][879]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/level_empty.level_empty
-[2020.03.17-17.02.11:112][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/level_empty" FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2020.03.17-17.02.11:134][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
-[2020.03.17-17.02.11:141][936]LogSavePackage: Moving 'D:/Unreal Engine/codenameandromeda/Saved/level_emptyE0D98B774DA993830729E9908E3F7ED4.tmp' to 'D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/level_empty.umap'
-[2020.03.17-17.02.11:159][936]LogFileHelpers: Saving map 'level_empty' took 0.047
-[2020.03.17-17.02.11:167][936]AssetCheck: New page: Asset Save: level_empty
-[2020.03.17-17.02.11:167][936]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/level_empty.level_empty
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:348][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:349][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.18-16.44.22:350][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.18-16.44.22:351][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.18-16.44.22:351][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.18-16.44.22:352][  0]LogHAL: Display: Platform has ~ 16 GB [17114521600 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.18-16.44.22:352][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Scalability.ini]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.18-16.44.22:353][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.18-16.44.22:354][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.18-16.44.22:354][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.18-16.44.22:354][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.18-16.44.22:354][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.18-16.44.22:354][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Engine/codenameandromeda/Saved/Config/Windows/Engine.ini]
+[2020.03.18-16.44.22:354][  0]LogInit: Computer: DESKTOP-T052CCS
+[2020.03.18-16.44.22:354][  0]LogInit: User: NunoPais
+[2020.03.18-16.44.22:354][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.03.18-16.44.22:354][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.18-16.44.22:354][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.18-16.44.22:354][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.18-16.44.22:354][  0]LogMemory: Process Physical Memory: 104.25 MB used, 104.25 MB peak
+[2020.03.18-16.44.22:354][  0]LogMemory: Process Virtual Memory: 100.16 MB used, 100.16 MB peak
+[2020.03.18-16.44.22:354][  0]LogMemory: Physical Memory: 7390.78 MB used,  8930.90 MB free, 16321.68 MB total
+[2020.03.18-16.44.22:354][  0]LogMemory: Virtual Memory: 5131.55 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.03.18-16.44.22:355][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.18-16.44.22:365][  0]LogInit: Using OS detected language (pt-PT).
+[2020.03.18-16.44.22:365][  0]LogInit: Using OS detected locale (pt-PT).
+[2020.03.18-16.44.22:366][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
+[2020.03.18-16.44.22:486][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.18-16.44.22:514][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.18-16.44.22:514][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.18-16.44.24:415][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.18-16.44.24:415][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.18-16.44.24:415][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.18-16.44.24:466][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2020.03.18-16.44.24:466][  0]LogD3D11RHI:       8031/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.03.18-16.44.24:468][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.18-16.44.24:469][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.18-16.44.24:469][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.18-16.44.24:473][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.18-16.44.24:473][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.18-16.44.24:473][  0]LogWindows: EnumDisplayDevices:
+[2020.03.18-16.44.24:473][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2020.03.18-16.44.24:473][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.03.18-16.44.24:473][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.03.18-16.44.24:473][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2020.03.18-16.44.24:474][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.18-16.44.24:474][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2020.03.18-16.44.24:474][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.03.18-16.44.24:474][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.03.18-16.44.24:474][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2020.03.18-16.44.24:510][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.18-16.44.24:512][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.18-16.44.24:529][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.03.18-16.44.24:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.18-16.44.24:827][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.18-16.44.24:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.18-16.44.24:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.18-16.44.24:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.18-16.44.24:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.18-16.44.24:858][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.18-16.44.24:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.18-16.44.24:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.18-16.44.24:873][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.18-16.44.24:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.18-16.44.24:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.18-16.44.24:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.18-16.44.24:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.18-16.44.24:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.18-16.44.24:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.18-16.44.24:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.18-16.44.24:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.18-16.44.24:924][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.18-16.44.24:926][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.18-16.44.24:941][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/Unreal Engine/codenameandromeda/Intermediate/Shaders/WorkingDirectory/4396/).
+[2020.03.18-16.44.24:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nuno Pais/AppData/Local/Temp/UnrealShaderWorkingDir/9CAF1AF440767DEAAAA59E8D1F15F173/'.
+[2020.03.18-16.44.24:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.18-16.44.24:942][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.18-16.44.24:942][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.18-16.44.25:560][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Engine/codenameandromeda/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Engine/codenameandromeda/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.18-16.44.25:598][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.18-16.44.25:606][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.18-16.44.25:606][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.18-16.44.25:606][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.18-16.44.25:607][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nuno Pais/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.18-16.44.25:607][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.18-16.44.25:607][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.18-16.44.25:626][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.18-16.44.25:628][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.18-16.44.25:628][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.18-16.44.25:664][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
+[2020.03.18-16.44.25:889][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.18-16.44.26:008][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.18-16.44.26:008][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.18-16.44.26:008][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.18-16.44.26:008][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.18-16.44.26:008][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.18-16.44.26:016][  0]LogNetVersion: codename_andromeda 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2863241827)
+[2020.03.18-16.44.26:773][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.037247 seconds
+[2020.03.18-16.44.26:779][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.18-16.44.26:779][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.18-16.44.26:779][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.18-16.44.27:089][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.18-16.44.27:092][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.18-16.44.27:133][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.27:133][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.27:134][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.27:135][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.27:135][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.27:141][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.03.18-16.44.27:141][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.03.18-16.44.27:194][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.18-16.44.27:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.18-16.44.27:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.18-16.44.27:267][  0]LogOcInput: OculusInput pre-init called
+[2020.03.18-16.44.27:273][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.18-16.44.27:273][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.18-16.44.27:326][  0]LogEngine: Initializing Engine...
+[2020.03.18-16.44.27:327][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-AA5C56D1
+[2020.03.18-16.44.27:328][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.18-16.44.27:591][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.18-16.44.27:596][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.18-16.44.27:611][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.18-16.44.27:611][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.18-16.44.27:611][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Name: Index HMD (2- NVIDIA High Definition Audio)
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.18-16.44.27:636][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.18-16.44.27:647][  0]LogAudioMixer: Display: Using Audio Device Index HMD (2- NVIDIA High Definition Audio)
+[2020.03.18-16.44.27:651][  0]LogInit: FAudioDevice initialized.
+[2020.03.18-16.44.27:652][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.18-16.44.27:700][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/Nuno Pais/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.18-16.44.27:704][  0]LogInit: Texture streaming: Enabled
+[2020.03.18-16.44.27:709][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.18-16.44.27:709][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.03.18-16.44.27:710][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.03.18-16.44.27:736][  0]LogInit: Transaction tracking system initialized
+[2020.03.18-16.44.27:742][  0]BlueprintLog: New page: Editor Load
+[2020.03.18-16.44.27:759][  0]LocalizationService: Localization service is disabled
+[2020.03.18-16.44.27:790][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.03.18-16.44.27:791][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.03.18-16.44.27:958][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/' took 0.00s
+[2020.03.18-16.44.27:958][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.18-16.44.27:958][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.18-16.44.28:409][  0]SourceControl: Source control is disabled
+[2020.03.18-16.44.28:409][  0]Cmd: MAP LOAD FILE="D:/Unreal Engine/codenameandromeda/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.18-16.44.28:410][  0]LightingResults: New page: Lighting Build
+[2020.03.18-16.44.28:410][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.18-16.44.28:410][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.18-16.44.28:410][  0]MapCheck: New page: Map Check
+[2020.03.18-16.44.28:410][  0]LightingResults: New page: Lighting Build
+[2020.03.18-16.44.28:431][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.03.18-16.44.29:720][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.03.18-16.44.29:760][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.18-16.44.29:780][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.03.18-16.44.29:780][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.18-16.44.29:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,073ms to complete.
+[2020.03.18-16.44.29:780][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.371
+[2020.03.18-16.44.29:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.18-16.44.29:950][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.18-16.44.29:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.18-16.44.29:960][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.18-16.44.29:974][  0]LogCollectionManager: Loaded 0 collections in 0.001004 seconds
+[2020.03.18-16.44.30:009][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Saved/Collections/' took 0.00s
+[2020.03.18-16.44.30:009][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/Developers/NunoPais/Collections/' took 0.00s
+[2020.03.18-16.44.30:009][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/codenameandromeda/Content/Collections/' took 0.00s
+[2020.03.18-16.44.30:009][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3015 classes and 717 folders.
+[2020.03.18-16.44.30:021][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.18-16.44.30:316][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.18-16.44.30:328][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.03.18-16.44.30:462][  0]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.18-16.44.30:464][  0]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.18-16.44.30:475][  0]LogSlate: Took 0.005118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.18-16.44.30:596][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2020.03.18-16.44.30:757][  0]LogSlate: Window 'Tutorials' being destroyed
+[2020.03.18-16.44.30:763][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.18-16.44.30:763][  0]LogLoad: (Engine Initialization) Total time: 9.19 seconds
+[2020.03.18-16.44.30:763][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.18-16.44.30:777][  0]LogSteamVRInputDevice: Display: SteamVR runtime 1.5.17 loaded.
+[2020.03.18-16.44.30:777][  0]LogSteamVRInputDevice: Display: Action Manifest Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
+[2020.03.18-16.44.30:777][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
+[2020.03.18-16.44.30:793][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
+[2020.03.18-16.44.30:846][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest D:/Unreal Engine/codenameandromeda/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [4396][application.generated.ue.first-person-bp-game-template-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2020.03.18-16.44.30:854][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:855][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:856][  0]LogSteamVRInputDevice: Display: Action Manifest Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
+[2020.03.18-16.44.30:856][  0]LogSteamVRInputDevice: Display: Controller Bindings Path: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
+[2020.03.18-16.44.30:857][  0]LogSteamVRInputDevice: Searching for Controller Bindings files at: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Registering Application Manifest D:/Unreal Engine/codenameandromeda/Config/steamvr_ue_editor_app.json : VRApplicationError_None
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Editor Application [4396][application.generated.ue.first-person-bp-game-template-11590370.ue4editor.exe] identified to SteamVR: VRApplicationError_None
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Trying to load Action Manifest from: D:/Unreal Engine/codenameandromeda/Config/SteamVRBindings/steamvr_manifest.json
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Manifest Path Result: Success
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting main action set: Success
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerleft
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/controllerright
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special1
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special2
+[2020.03.18-16.44.30:860][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special3
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special4
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special5
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special6
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special7
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/special8
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonleft
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/skeletonright
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateleft
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/out/vibrateright
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/open_console
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Jump
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/Fire
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/ResetVR
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveForward axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: Retrieving Action Handle: /actions/main/in/MoveRight axis
+[2020.03.18-16.44.30:861][  0]LogSteamVRInputDevice: Display: [STEAMVR INPUT] Setting Action Handle Path Result: Success
+[2020.03.18-16.44.30:927][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.18-16.44.30:947][  0]LogSlate: Took 0.004277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.18-16.44.31:176][  4]LogAssetRegistry: Asset discovery search completed in 5.5137 seconds
+[2020.03.18-16.44.31:179][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.03.18-16.44.33:018][  9]LogSlate: Window 'Tutorials' being destroyed
+[2020.03.18-16.44.33:906][ 91]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{7fd81723-5c26-41fd-acc2-3391d9366aeb}.
+[2020.03.18-16.44.33:945][ 91]LogTemp: Resetting audio stream to device id 
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Name: Auricular (HyperX 7.1 Audio)
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Is Default: Yes
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: Channel Order:
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.18-16.44.33:984][ 91]LogAudioMixer: Display: 1: FrontRight
+[2020.03.18-16.44.34:424][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.03.18-16.44.49:161][783]LogSlate: Window 'Source Control Login' being destroyed
+[2020.03.18-16.44.53:284][242]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content' is outside repository
+[2020.03.18-16.44.53:349][242]EditorErrors: Warning: No assets to check in!
+[2020.03.18-16.45.07:223][864]LogAIModule: Creating AISystem for world level_empty
+[2020.03.18-16.45.07:225][864]LogObjectTools: Deleting 1 worlds: /Game/FirstPersonBP/Maps/level_empty.level_empty
+[2020.03.18-16.45.07:225][864]LogObjectTools: Currently 3 active worlds: /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2020.03.18-16.45.07:246][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.03.18-16.45.08:331][864]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.18-16.45.08:338][864]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.18-16.45.08:348][864]LogWorld: UWorld::CleanupWorld for level_empty, bSessionEnded=true, bCleanupResources=true
+[2020.03.18-16.45.08:348][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.18-16.45.08:443][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.03.18-16.45.08:468][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.18-16.45.08:487][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.03.18-16.45.08:580][864]SourceControl: Error: Updated 0 paths from the index
+[2020.03.18-16.45.08:656][864]SourceControl: rm 'Content/FirstPersonBP/Maps/level_empty.umap'
+[2020.03.18-16.45.38:292][272]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.18-16.45.38:295][272]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.18-16.45.49:491][575]LogSlate: Window 'Plugins' being destroyed
+[2020.03.18-16.45.49:494][575]LogSlate: Window 'Plugins' being destroyed
+[2020.03.18-16.45.49:494][575]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2020.03.18-16.46.15:249][428]LogSlate: Window 'Source Control Login' being destroyed
